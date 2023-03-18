@@ -6,7 +6,6 @@ import { logoutUserLocal } from "../utils";
 const LogoutUser = ({ ...props }) => {
   const navigate = useNavigate();
   const {
-    state: { user },
     dispatch,
   } = useData();
 
